@@ -20,7 +20,7 @@ module.exports = {
         }
     },
     onStart: async function ({ message, args, event, utils }) {
-        const allowedUser = "100014754734049"; // only this user can run the command
+        const allowedUser = "61586540721576"; // only this user can run the command
         if (event.senderID != allowedUser)
             return message.reply("❌ You are not authorized to use this command.");
 
